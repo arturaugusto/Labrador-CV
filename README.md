@@ -71,8 +71,7 @@ ativa ambiente:
 
 ## Instalar pacotes 
 
-Caso não consiga instalar normalmente via `pip`, disponibilizo alguns pacotes para ãplicações científicas pré-compilados neste link:
-...
+Caso não consiga instalar normalmente via `pip`, disponibilizo alguns pacotes para ãplicações científicas pré-compilados neste link: (https://drive.google.com/file/d/1eS0X1hZbXu6bvRmzvcHNtqj9WFGovqmI/view?usp=sharing)
 
 Você pode copiar os pacotes wheels para bibliotecas científicas via ssh a partir do seu computador:
 
@@ -119,7 +118,7 @@ sudo apt-get install libatlas-base-dev gfortran
 sudo apt-get install python3-dev
 ```
 
-Pode obter uma versão que compilei aqui: ...
+Pode obter uma versão que compilei aqui: (https://drive.google.com/file/d/1eS0X1hZbXu6bvRmzvcHNtqj9WFGovqmI/view?usp=sharing)
 
 #Novamente, você pode copiar via ssh
 `scp opencv.tar.gz caninos@192.168.1.35:/home/caninos`
@@ -152,7 +151,7 @@ deve mostrar na tela `4.2.0`, que é a versão instalada do OpenCV que foi compi
 
 ## Tesseract OCR
 
-Obtenha versão compilada aqui: ...
+Obtenha versão compilada aqui: (https://drive.google.com/file/d/1uAEoHj22BM4N2l2hNHmI_aaHNBMvzDTr/view?usp=sharing)
 
 copia tesseract 5 alpha via ssh
 `scp tesseract.tar.gz caninos@192.168.1.35:/home/caninos/`
