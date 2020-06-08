@@ -36,7 +36,7 @@ Para instalar servidor ssh:
 
 `sudo apt-get install openssh-server`
 
-Agora você poderá acessar sua placa pela rede através do comando `ssh -l caninos@192.168.1.1` ou utilizando aplicativos como o PuTTY para Windows.
+Agora você poderá acessar sua placa pela rede através do comando `ssh -l caninos@192.168.1.35` ou utilizando aplicativos como o PuTTY para Windows.
 
 # fstab (opcional)
 
@@ -71,7 +71,7 @@ ativa ambiente:
 
 ## Instalar pacotes 
 
-Caso não consiga instalar normalmente via `pip`, disponibilizo alguns pacotes para ãplicações científicas pré-compilados neste link: (https://drive.google.com/file/d/1eS0X1hZbXu6bvRmzvcHNtqj9WFGovqmI/view?usp=sharing)
+Caso não consiga instalar normalmente via `pip`, disponibilizo alguns pacotes para aplicações científicas pré-compilados neste link: (https://drive.google.com/file/d/1eS0X1hZbXu6bvRmzvcHNtqj9WFGovqmI/view?usp=sharing)
 
 Você pode copiar os pacotes wheels para bibliotecas científicas via ssh a partir do seu computador:
 
