@@ -71,15 +71,13 @@ ativa ambiente:
 
 ## Instalar pacotes 
 
-Disponibilizo alguns pacotes pré-compilados neste link:
+Caso não consiga instalar normalmente via `pip`, disponibilizo alguns pacotes para ãplicações científicas pré-compilados neste link:
 ...
 
 Você pode copiar os pacotes wheels para bibliotecas científicas via ssh a partir do seu computador:
 
 `scp wheels.tar.gz caninos@192.168.1.35:/home/caninos`
 
-
-# instalar pacotes
 
 Faça isto *dentro* do ambiente virtual Python (`source ocr/bin/activate`)
 
@@ -175,3 +173,6 @@ Pode ser necessário instalar algumas dependências. Para isto, basta instalar a
 
 
 
+## Referências:
+
+https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
