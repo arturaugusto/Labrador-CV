@@ -38,7 +38,7 @@ Para instalar servidor ssh:
 
 Agora você poderá acessar sua placa pela rede através do comando `ssh -l caninos@192.168.1.35` ou utilizando aplicativos como o PuTTY para Windows.
 
-# fstab (opcional)
+## fstab (opcional)
 
 Costumo criar disco de memória para algumas aplicações que geram arquivos
 temporários com frequência (exemplo: Tesseract-OCR). Para isso, edite o `fstab` (aqui estou usando o vi):
@@ -120,7 +120,7 @@ sudo apt-get install python3-dev
 
 Pode obter uma versão que compilei aqui: (https://drive.google.com/file/d/1QFJI8_QBn3Gkn7xHZR6tX_BL9kK93Z_e/view?usp=sharing)
 
-#Novamente, você pode copiar via ssh
+novamente, você pode copiar via ssh
 `scp opencv.tar.gz caninos@192.168.1.35:/home/caninos`
 
 
