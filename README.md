@@ -149,6 +149,10 @@ Para testar se o módulo está sendo importado corretamente execute o seguinte c
 
 deve mostrar na tela `4.2.0`, que é a versão instalada do OpenCV que foi compilada.
 
+O usuário `caninos` deve pertencer ao grupo `video` para que tenha acesso a camera:
+
+`sudo usermod -a -G video caninos`
+
 ## Tesseract OCR
 
 Obtenha versão compilada aqui: (https://drive.google.com/file/d/1uAEoHj22BM4N2l2hNHmI_aaHNBMvzDTr/view?usp=sharing)
